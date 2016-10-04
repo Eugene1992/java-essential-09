@@ -3,14 +3,8 @@ package cw01;
 public class Main {
     public static void main(String[] args) {
         Employee employee1 = new Employee();
-        System.out.println(employee1.name);
-        System.out.println(employee1.salary);
-
         employee1.salary = 10000;
         employee1.name = "Boby";
-
-        System.out.println(employee1.name);
-        System.out.println(employee1.salary);
 
         Employee employee2 = new Employee();
         employee2.salary = 4000;
@@ -28,7 +22,7 @@ public class Main {
     static Employee getMaxSalaryEmployee(Employee[] employees) {
         int maxSalary = employees[0].salary;
         Employee maxSalaryEmployee = employees[0];
-        for (int i = 0; i < employees.length; i++) {
+        for (int i = 1; i < employees.length; i++) {
             if (employees[i].salary > maxSalary) {
                 maxSalary = employees[i].salary;
                 maxSalaryEmployee = employees[i];
