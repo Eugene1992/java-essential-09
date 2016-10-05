@@ -73,6 +73,5 @@ public class Main {
         }
         System.out.println("\n Search:");
         obj1.searchTitle(arrMov,"X-Men");
-
     }
 }
