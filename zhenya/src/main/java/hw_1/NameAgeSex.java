@@ -6,7 +6,7 @@ package hw_1;
 public class NameAgeSex {
     String name;
     int age;
-    int salary;
+    int income;
     String sex;
     String car;
 
