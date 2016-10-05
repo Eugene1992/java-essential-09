@@ -6,7 +6,7 @@ public class RefValueQuestion {
        /* int k = 10;
         System.out.println(k);
 
-        k = f(k + 100);
+        k = parentMethod(k + 100);
         System.out.println(k);*/
 
         Employee employee = new Employee();

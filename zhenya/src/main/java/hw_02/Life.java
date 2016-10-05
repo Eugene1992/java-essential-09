@@ -5,7 +5,7 @@ package hw_02;
  */
 public class Life {
     public static void main(String[] args) {
-        People human1 = new People();
+        /*People human1 = new People();
         human1.name = "Ban";
         human1.car = "Volvo";
         human1.incomes = 12000;
@@ -25,7 +25,7 @@ public class Life {
         Me_t d = new Me_t();
 
 
-        System.out.println(d.humanResource(humans).incomes);
+        System.out.println(d.humanResource(humans).incomes);*/
     }
 
 
