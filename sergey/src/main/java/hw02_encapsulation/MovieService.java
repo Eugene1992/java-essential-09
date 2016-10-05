@@ -51,4 +51,15 @@ public class MovieService {
             }
         }
     }
+
+    public void searchTitle(Movie[] arr, String text) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].getTitle() != null) {
+                //System.out.println("\nid " + arr[i].getId() + " Title " + arr[i].getTitle() + "  " + arr[i].getTitle().compareTo(text));
+                //System.out.println(arr[i].getTitle().matches(".*\\b" + text + "\\b.*"));
+                if (arr[i].getTitle().matches(".*\\b" + text + "\\b.*"))
+                    System.out.print(" Found: " + arr[i].getTitle());
+            }
+        }
+    }
 }

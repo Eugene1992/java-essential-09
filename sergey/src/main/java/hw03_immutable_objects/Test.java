@@ -5,7 +5,7 @@ package hw03_immutable_objects;
  */
 public class Test {
     public static void main(String[] args) {
-        //Exemple on String
+        //Example on String
         immutableOperation();
         System.out.println();
         mutableOperation();
