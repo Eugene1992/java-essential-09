@@ -5,13 +5,13 @@ package hm_02_second;
  */
 public class Boat {
 
-        private String name;
-        private int length;
-        private int maxSpeed;
-        private int weight;
+    private String name;
+    private int length;
+    private int maxSpeed;
+    private int weight;
     private int year;
 
-    public Boat (String name, int length, int maxSpeed, int weight, int year){
+    public Boat(String name, int length, int maxSpeed, int weight, int year) {
         this.name = name;
         this.length = length;
         this.maxSpeed = maxSpeed;
@@ -22,38 +22,42 @@ public class Boat {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public int getLength(){
+    public int getLength() {
         return length;
     }
-    public void setLength(int length){
-        this.length=length;
+
+    public void setLength(int length) {
+        this.length = length;
     }
 
-    public int getMaxSpeed(){
+    public int getMaxSpeed() {
         return maxSpeed;
     }
-    public void setMaxSpeed(int maxSpeed){
+
+    public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
 
-    public int getWeight(){
+    public int getWeight() {
         return weight;
     }
-    public void setWeigth(int weight){
+
+    public void setWeigth(int weight) {
         this.weight = weight;
     }
 
-    public int getYear(){
+    public int getYear() {
         return year;
     }
-    public void setYear(int year){
+
+    public void setYear(int year) {
         this.year = year;
     }
-
 
 
 }
