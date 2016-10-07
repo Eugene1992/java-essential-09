@@ -15,7 +15,7 @@ public class Main {
         MathBoat grandPa = new MathBoat();
 
         for (Boat boat : boats) {
-            System.out.print("[" + boat.getYear() + "]");
+            System.out.println("[" + boat.getYear() + "]");
         }
         MathBoat.sortByYear(boats);
         System.out.println();
