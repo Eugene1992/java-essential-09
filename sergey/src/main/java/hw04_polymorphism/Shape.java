@@ -3,24 +3,12 @@ package hw04_polymorphism;
 /**
  * Created by Serezha on 06.10.2016.
  */
-
-import java.math.*;
-
 public class Shape {
     protected double a;
-    protected double b;
-    protected double c;
-    protected double d;
 
     //for square
     public Shape(double a) {
         this.a = a;
-    }
-
-    //for rectangle, rhomb
-    public Shape(double a, double b) {
-        this.a = a;
-        this.b = b;
     }
 
     public double mathArea() {

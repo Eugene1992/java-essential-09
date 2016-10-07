@@ -11,10 +11,9 @@ public class Object {
         this.name = name;
         this.side = side;
     }
+
     public void lookLike (){
         System.out.println("Object is " + name + " and has " + side + " sides");
     }
-
-
 }
 

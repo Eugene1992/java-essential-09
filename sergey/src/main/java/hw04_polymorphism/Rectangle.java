@@ -5,8 +5,11 @@ package hw04_polymorphism;
  */
 public class Rectangle extends Shape {
 
+    private double b;
+
     public Rectangle(double a, double b) {
-        super(a, b);
+        super(a);
+        this.b = b;
     }
 
     @Override
