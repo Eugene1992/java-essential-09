@@ -3,10 +3,10 @@ package hw05_abstraction;
 /**
  * Created by User on 10/9/2016.
  */
-public class FRhombus extends Quadrangle {
+public class FParallelogram extends Quadrangle {
     private double height;
 
-    public FRhombus(double side, double height) {
+    public FParallelogram(double side, double height) {
         super(side);
         this.height = height;
     }
@@ -15,4 +15,5 @@ public class FRhombus extends Quadrangle {
     public double getArea() {
         return super.side * this.height;
     }
+
 }
