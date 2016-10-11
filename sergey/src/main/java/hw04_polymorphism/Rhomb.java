@@ -3,12 +3,13 @@ package hw04_polymorphism;
 /**
  * Created by Serezha on 06.10.2016.
  */
-public class Rhomb extends Shape {
+public class Rhomb extends Shape{
     private double height;
 
-    public Rhomb(double side, double height) {
+    public Rhomb(double side,
+                 double height) {
         super(side);
-        this.height = height;
+        this.height=height;
     }
 
     @Override

@@ -1,18 +1,19 @@
 package hw06_ArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by User on 10/10/2016.
  */
 public class CollectionTime {
-    private ArrayList<String> list;
+    private List<String> list;
 
-    public CollectionTime(ArrayList<String> list) {
+    public CollectionTime(List<String> list) {
         this.list = list;
     }
 
-    public ArrayList<String> getList() {
+    public List<String> getList() {
         return this.list;
     }
 

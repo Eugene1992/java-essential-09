@@ -11,6 +11,7 @@ public class Test {
         mutableOperation();
     }
 
+
     public static void immutableOperation() {
         String str=new String("String is immutable class in Java object value cann't alter once created...");
         System.out.println(str);
