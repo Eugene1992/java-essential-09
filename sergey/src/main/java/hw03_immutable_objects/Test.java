@@ -19,7 +19,7 @@ public class Test {
         System.out.println(str);
         str.concat("Concating value ");
         System.out.println(str + "HashCode Value  " + str.hashCode());
-        str=str.concat("Concating value ");
+        str = str.concat("Concating value ");
         System.out.println(str + "HashCode Val  " + str.hashCode());
 
     }

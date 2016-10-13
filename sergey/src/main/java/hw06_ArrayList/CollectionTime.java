@@ -1,6 +1,5 @@
 package hw06_ArrayList;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,9 +16,12 @@ public class CollectionTime {
         return this.list;
     }
 
+
     public long add(int size, String data) {
         long startTime = System.currentTimeMillis();
-        if (size <= 0) return -1;
+        if (size <= 0) {
+            return -1;
+        }
         for (int i = 0; i < size; i++) {
             list.add(data);
         }
