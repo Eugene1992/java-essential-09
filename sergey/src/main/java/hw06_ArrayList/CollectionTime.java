@@ -17,22 +17,22 @@ public class CollectionTime {
     }
 
 
-    public long add(int size, String data) {
+    public long add(int startIndex, int size, String data) {
         long startTime = System.currentTimeMillis();
         if (size <= 0) {
             return -1;
         }
-        for (int i = 0; i < size; i++) {
-            list.add(data);
+        for (int i = startIndex; i < size; i++) {
+            list.add(i,data);
         }
         long endTime = System.currentTimeMillis();
         return endTime - startTime;
     }
 
-    public long update(int size, String data) {
+    public long update(int startIndex, int size, String data) {
         long startTime = System.currentTimeMillis();
         if (size <= 0 || size > list.size()) return -1;
-        for (int i = 0; i < size; i++) {
+        for (int i = startIndex; i < size; i++) {
             list.set(i, data);
         }
         long endTime = System.currentTimeMillis();
